@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainPage {
+  border: 7px solid red;
+  width: 100%;
+  height: 100vh;
+}
+button {
+  margin: 1.2rem;
+  padding: 0.5rem 1.7rem;
+  border-radius: 7px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: blue;
+  color: white;
+  border: 2px solid blue;
+  transition: all 0.3s linear;
+}
+button:hover {
+  color: black;
+  background: transparent;
+}
+button:active {
+  box-shadow: 3px 3px 7px gray;
+}
+img {
+  display: block;
+}
